@@ -1,0 +1,18 @@
+li {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    
+}
+
+li input {
+    cursor: pointer;
+}
+li label {
+    cursor: pointer;
+}
+@media (min-width: 1024px) {
+    li label {
+        font-size: 18px;
+    }
+}
